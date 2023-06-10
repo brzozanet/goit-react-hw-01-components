@@ -4,7 +4,7 @@ import styles from "./Statistics.module.css";
 
 const Statistics = ({ stats }) => {
   return (
-    <section className={styles.statistics}>
+    <section className={styles.statistic}>
       <h2 className={styles.title}>Upload stats</h2>
       <ul className={styles["stat-list"]}>
         {stats.map(item => (
