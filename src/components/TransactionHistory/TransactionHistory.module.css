@@ -7,29 +7,29 @@
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.transaction-history th,
-.transaction-history td {
+.table-header-item,
+.table-row-item {
   padding: 10px 20px;
   text-align: center;
   border-bottom: 1px solid #bdbdbd;
 }
 
-.transaction-history th {
+.table-header-item {
   background-color: #bdbdbd;
   text-transform: uppercase;
   font-size: 12px;
   color: #fff;
 }
 
-.transaction-history td {
+.table-row-item {
   font-size: 14px;
   color: #424242;
 }
 
-.transaction-history .transaction-history__item:nth-child(2n) {
+.table-row:nth-child(2n) {
   background-color: #eeeeee;
 }
 
-.transaction-history .transaction-history__item:nth-child(2n + 1) {
+.table-row:nth-child(2n + 1) {
   background-color: #fff;
 }
