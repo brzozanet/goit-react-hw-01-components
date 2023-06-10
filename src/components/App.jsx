@@ -1,8 +1,9 @@
+import user from "./database/user.json";
+import data from "./database/data.json";
+
 import Profile from "./Profile/Profile";
 import Statistics from "./Statistics/Statistics";
-
-import user from "./Profile/user.json";
-import data from "./Statistics/data.json";
+import FriendList from "./FriendList/FriendList";
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics stats={data} />
+      <FriendList />
     </div>
   );
 };
