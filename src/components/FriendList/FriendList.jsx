@@ -9,7 +9,7 @@ export const FriendList = ({ friends }) => {
           <span
             className={css.status}
             style={{
-              backgroundColor: friend.isOnline ? css.online : css.offline,
+              backgroundColor: friend.isOnline ? "green" : "red",
             }}
           ></span>
           <img

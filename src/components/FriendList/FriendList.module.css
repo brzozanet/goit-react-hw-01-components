@@ -22,14 +22,6 @@
   margin-right: 10px;
 }
 
-.online {
-  background-color: #4caf50;
-}
-
-.offline {
-  background-color: #f44336;
-}
-
 .avatar {
   display: block;
   width: 80px;
